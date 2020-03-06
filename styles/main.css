@@ -248,6 +248,11 @@ body {
   .menu-nav li a {
     padding: 0 8px;
   }
+
+  #jumbotron {
+
+  }
+
 }
 
 @media all and (max-width: 899px) {
@@ -275,5 +280,12 @@ body {
 
   .hamburger {
     text-align: right;
+  }
+}
+
+
+@media all and (max-width: 480px) {
+  #jumbotron h1 {
+    font-size: 250%;
   }
 }
