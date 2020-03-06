@@ -288,6 +288,34 @@ body {
     padding: 20px;
   }
 
+  .how-works-bg {
+    background-position: left;
+  }
+
+  .img-phone {
+    display: none;
+  }
+
+  #how-works .col-sx {
+      padding-top: 40px;
+  }
+
+  #how-works .col-dx {
+    padding-top: 10px;
+    padding-bottom: 20px;
+  }
+
+  #how-works .one-third {
+    width: 100%;
+    float: none;
+    text-align: center;
+  }
+
+  #how-works .col-sx h3 {
+    display: inline-block;
+    text-align: center;
+  }
+
 }
 
 
@@ -298,7 +326,11 @@ body {
 
   #products .box {
     float: none;
-    padding: 40px 30px 30px;    
+    padding: 40px 30px 30px;
+  }
+
+  .how-works-bg {
+    background-position: -150px;
   }
 
 }
