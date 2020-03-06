@@ -64,6 +64,10 @@ body {
   transform: translate(-50%, -50%);
 }
 
+.h-room {
+  padding-right: 20px;
+  padding-left: 20px;
+}
 
 /* HEADER */
 .main-header {
@@ -119,9 +123,8 @@ body {
   padding-right: 0;
 }
 
-.h-room {
-  padding-right: 20px;
-  padding-left: 20px;
+.hamburger {
+  display: none;
 }
 
 /* JUMBOTRON */
@@ -234,4 +237,43 @@ body {
   left: 50%;
   transform: translateX(-50%);
   width: 380px;
+}
+
+/* Responsive */
+@media all and (min-width: 900px) and (max-width: 1279px) {
+  .navbar {
+    width: 800px;
+  }
+
+  .menu-nav li a {
+    padding: 0 8px;
+  }
+}
+
+@media all and (max-width: 899px) {
+  .navbar {
+    width: 95%;
+    line-height: 80px;
+  }
+
+  .menu-nav {
+    display: none;
+  }
+
+  .responsive-menu {
+    width: 100%;
+  }
+
+  .hamburger {
+    display: inline-block;
+    margin-left: 75%;
+    width: 25%;
+    line-height: 80px;
+    text-align: right;
+    font-size: 50px;
+  }
+
+  .hamburger {
+    text-align: right;
+  }
 }
